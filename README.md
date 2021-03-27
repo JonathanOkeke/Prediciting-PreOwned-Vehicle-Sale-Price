@@ -35,13 +35,13 @@ A five-fold cross valdated R^@ and MSE score were used to evaluate the four mode
 
 ## Modelling Results
 Of the four fitted and evaluated estimators, the XGB Regressor model performed the best (metric-wise)
-|![](img/model_comparison.png)|
--
+|![](img/model_comparison.png)
+|-
 
 ## Insights
 ### Feature Importance
-|![](img/feature_importance.png)|
--
+|![](img/feature_importance.png)
+|-
 #### The feature importance analysis revealed:
 1. The `Present_Price` (current new vehicle sale price) is the most important feature.
 2. The `Age` of the vehicle eas the second most important feature.  
