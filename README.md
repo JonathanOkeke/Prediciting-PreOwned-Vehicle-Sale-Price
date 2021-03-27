@@ -3,10 +3,10 @@
 ### This is a standard `Regression Problem`.
 
 ## Tools and Libraries Used
-- SKlearn
-- Matplotlib
-- NumPy
-- Pandas
+- `SKlearn`
+- `Matplotlib`
+- `NumPy`
+- `Pandas`
 
 ## Data
 #### The dataset used for this project was retrieved from Kaggle at : https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho
@@ -39,7 +39,7 @@ Of the four fitted and evaluated estimators, the XGB Regressor model performed t
 ## Insights
 ### Feature Importance
 #### The feature importance analysis revealed:
-1. The `Present_Price` (Current New Vehicle Sale Price) is the most important feature.
+1. The `Present_Price` (current new vehicle sale price) is the most important feature.
 2. The `Age` of the vehicle eas the second most important feature.  
 3. The `Kms_Driven` by the vehicle was the third most important feature.
 
