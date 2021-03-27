@@ -1,0 +1,11 @@
+matplotlib
+flasgger
+seaborn
+joblib
+Flask
+numpy
+pandas
+scikit_learn
+gunicorn
+requests
+jsonify
