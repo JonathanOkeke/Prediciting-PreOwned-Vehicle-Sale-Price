@@ -9,10 +9,10 @@
 
 <body>
 
-    <div style="color:blue">
+    <div style="color:black">
         <form action="{{ url_for('predict')}}" method="post">
-            <h2>Pre-Owned Vehicle Re-Sale Price Calculator</h2>
-            <h4>This tool will help you determine what price to sell a pre-owned vehicle for.</h4>
+            <h2 style="color:blue">Pre-Owned Vehicle Re-Sale Price Calculator</h2>
+            <h3 style="color:blue">This tool will help you determine what price to sell your pre-owned vehicle for.</h3>
             <h3>Year</h3>
             <input id="first" name="Year" type="number ">
             <h3>What is the vehicle's showroom price?(In ZAR)</h3><br><input id="second" name="Present_Price" required="required">
@@ -31,13 +31,13 @@
                 <option value="Manual">Manual Car</option>
                 <option value="Automatic">Automatic Car</option>
             </select>
-            <br><br><button id="sub" type="submit ">Calculate the Selling Price</button>
-            <br>
+            <br><br><button id="sub" type="submit">Calculate the Re-Sale Price</button>
+            <br><h4 style="color:blue">Look below for your calculated vehicle selling price</h4>
         </form>
-        <br><br><h3>{{ prediction_text }}<h3>
-            
-            <h4>Created by Jonathan Okeke.</h4>
-            <h4>Powered by Machine Learning.</h4>
+            <h2 style="color: rgb(147, 211, 20)">{{ prediction_text }}<h2>
+
+            <h4 style="color:blue">Created by Jonathan Okeke.</h4>
+            <h4 style="color:blue">Powered by Machine Learning.</h4>
     </div>
 
 
@@ -112,8 +112,8 @@
         }
         
         #sub {
-            width: 120px;
-            height: 43px;
+            width: 300px;
+            height: 30px;
             text-align: center;
             border-radius: 14px;
             font-size: 18px;
