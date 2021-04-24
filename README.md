@@ -1,4 +1,5 @@
 # Pre-Owned Car Sale Price Prediction
+A Heroku hosted Flask wep application used to estimate car pre-owned vehicle sale prices.
 ### This project involves developing a model to predict the appropriate selling price of a pre-owned vehicle based on several vehicle attributes.
 ### This is a standard `Regression Problem`.
 
